@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
-   * main - main block
- * return: 0
+* main -prints a string
+* Description: prints a long string
+* Return: Always 0 (ok)
    */
 
 int main(void)
