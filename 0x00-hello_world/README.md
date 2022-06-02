@@ -1,1 +1,1 @@
-generates assenbly code
+naming and compiling
