@@ -1,1 +1,1 @@
-does not link
+generates assenbly code
