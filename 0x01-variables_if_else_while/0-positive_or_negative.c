@@ -32,7 +32,7 @@ else if (n < 0)
 else
 
 {
-	printf(&n, "%d is zero\n");
+	printf("%d is zero\n", n);
 
 }
 					return (0);
