@@ -10,12 +10,12 @@ void times_table(void)
 
 	for (r = 0; r <= 9; r++)
 	{
-		for (column = 0; column <= 9; column++)
+		for (c = 0; c <= 9; ++)
 		{
 			p = r * c;
 			t = p / 10;
 			o = p % 10;
-			if (column == 0)
+			if (c == 0)
 			{
 				_putchar('0');
 			}
