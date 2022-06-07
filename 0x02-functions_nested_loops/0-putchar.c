@@ -7,13 +7,15 @@
 
 int main(void)
 {
-char name[] = "_putchar";
-int i = 0;
-while (i < 9)
-{
-	_putchar(name[i]);
-}
-	_putchar('\n');
+_putchar('_');
+_putchar('p');
+_Putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
 
