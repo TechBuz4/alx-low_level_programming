@@ -9,7 +9,7 @@ void print_most_numbers(void)
 
 	int c;
 
-	for (c = 0; c <= 9; c++)
+	for (c = 0; c < 10; c++)
 
 	{
 
