@@ -13,7 +13,7 @@ int main(void)
 
 {
 
-	long int n;
+	long int x;
 
 	long int max;
 
@@ -35,7 +35,7 @@ int main(void)
 
 	}
 
-	for (i = 3; i <= sqrt(n); i = i + 2)
+	for (i = 3; i <= sqrt(x); i = i + 2)
 
 	{
 
