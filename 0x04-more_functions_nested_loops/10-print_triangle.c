@@ -29,7 +29,7 @@ void print_triangle(int size)
 
 		{
 
-			for (y = i; y < size; y++)
+			for (y = x; y < size; y++)
 
 			{
 
