@@ -5,8 +5,7 @@
  * @n: is a int
  */
 
-void print_line(int n);
-
+void print_line(int n)
 {
 
 	int i;
