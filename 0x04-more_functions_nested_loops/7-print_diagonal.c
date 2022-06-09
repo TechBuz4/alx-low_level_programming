@@ -18,6 +18,8 @@ void print_diagonal(int n)
 		for (x = 0; x < n; x++)
 
 		{
+			for (y = 0; y < n; y++)
+			{
 
 			if (x == y)
 
@@ -27,7 +29,7 @@ void print_diagonal(int n)
 
 			}
 
-			else if (x < y)
+			else if (y < x)
 
 			{
 
@@ -37,7 +39,7 @@ void print_diagonal(int n)
 
 			_putchar('\n');
 
-		}
+			}
 
 	}
 
