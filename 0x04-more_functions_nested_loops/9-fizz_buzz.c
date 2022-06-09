@@ -6,18 +6,13 @@
 */
 
 int main(void)
-
 {
 	int i;
 
 	for (i = 0; i < 101; i++)
-
 	{
-
 		if (i % 3 == 0 && i % 5 != 0)
-
 		{
-
 			printf("Fizz");
 
 		}
@@ -37,7 +32,10 @@ int main(void)
 			printf("FizzBuzz");
 
 		}
-
+		else if (i == 1)
+		{
+			printf("%d", i);
+		}
 		printf("%d", i);
 
 	}
