@@ -37,7 +37,7 @@ void print_diagonal(int n)
 
 				}
 
-				else if (x < y)
+				else if (y < x)
 
 				{
 
