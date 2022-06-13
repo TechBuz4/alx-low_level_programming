@@ -17,23 +17,22 @@ char *_strcpy(char *dest, char *src)
 
 	int i = 0;
 
-	while (i >= 0;
-
+	while (i >= 0)
 	{
 
-			*(dest + i) = *(src + i);
+		*(dest + i) = *(src + i);
 
-			if (*(src + i) == '\0')
+		if (*(src + i) == '\0')
 
-			{
+		{
 
-				break;
+		break;
 
-			}
+		}
 
 	}
 
-			return (dest);
+	return (dest);
 
 
 }
