@@ -26,7 +26,7 @@ char *_strcpy(char *dest, char *src)
 
 		{
 
-		break;
+			break;
 
 		}
 

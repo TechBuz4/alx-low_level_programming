@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 
 {
 
-	int i;
+	int i = 0;
 
 	for (;  i <= n; i++)
 
@@ -34,7 +34,7 @@ void print_array(int *a, int n)
 		printf(", ");
 
 	}
-
+	printf("\n");
 }
 
 
