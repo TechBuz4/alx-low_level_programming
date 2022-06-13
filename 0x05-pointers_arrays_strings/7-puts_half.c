@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- *  puts2 -  reverse a string
+ *  puts_half - prints half a string
  *   @str: a string
  *    Return: 0
  */
 
-
-
-void puts2(char *str)
+void puts_half(char *str)
 
 {
 
@@ -18,7 +16,10 @@ void puts2(char *str)
 
 	{
 
-		if (i % 2 == 0)
+	}
+
+	i++;
+		for (i / 2; *(str + i) != '\0'; i++)
 
 		{
 
@@ -28,9 +29,6 @@ void puts2(char *str)
 
 		}
 
-		_putchar('\n');
-
-
-	}
+	_putchar('\n');
 
 }
