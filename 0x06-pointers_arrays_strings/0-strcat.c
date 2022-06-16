@@ -26,10 +26,8 @@ if (dest[i] != '\0')
 		j++;
 
 		i++;
-
 	}
-
+}
 	return (dest);
 
-}
 }
