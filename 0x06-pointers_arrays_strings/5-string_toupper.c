@@ -20,7 +20,7 @@ char *string_toupper(char *str)
 
 		{
 
-			str[i] = str[i] - 32;
+			str[i] -= 32;
 
 		}
 
