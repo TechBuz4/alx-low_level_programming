@@ -33,14 +33,10 @@ char *_strncat(char *dest, char *src, int n)
 
 		if (*(src + j) == '\0')
 			break;
-
+		j++;
+		i++;
 	}
-
-	j++;
-
-	i++;
 	return (dest);
-
 }
 
 
