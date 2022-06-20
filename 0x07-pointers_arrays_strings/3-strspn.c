@@ -23,7 +23,7 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[j] == accept[k])
 
 			{
-				break
+				break;
 			}
 		}
 
@@ -36,4 +36,4 @@ unsigned int _strspn(char *s, char *accept)
 
 	return (j);
 
-	}
+}
