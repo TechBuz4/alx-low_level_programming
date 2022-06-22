@@ -23,7 +23,7 @@ int prime(int a, int b)
 
 	else
 
-		return (prime_check(b + 1, a));
+		return (prime(b + 1, a));
 
 }
 
