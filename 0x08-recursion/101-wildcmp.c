@@ -13,15 +13,11 @@ char *test(char *a, char *b, char *i, char *j)
 {
 
 	if (*b == '*' || (*a == '\0' && *b == '\0'))
-
 		return (i);
 
 	else if (*a != *b)
-
 		return (wildcard(a, j));
-
 	else
-
 		return (test(a + 1, b + 1, i, j));
 
 }
