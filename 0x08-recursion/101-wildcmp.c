@@ -18,7 +18,7 @@ char *test(char *a, char *b, char *i, char *j)
 
 	else if (*a != *b)
 
-		return (wildcard(a, b));
+		return (wildcard(a, j));
 
 	else
 
@@ -30,7 +30,7 @@ char *test(char *a, char *b, char *i, char *j)
  * wildcard - checks for the wildcards
  * @k: string
  * @l: string
- * Return: pointer to spot in s3 that matches s4
+ * Return: pointer
  */
 
 char *wildcard(char *k, char *l)

@@ -30,7 +30,7 @@ int p(char *s, int i)
 	}
 	if (*s == *(s + i))
 	{
-		return (p(i + 1, i - 2));
+		return (p(s + 1, i - 2));
 	}
 	return (0);
 }
