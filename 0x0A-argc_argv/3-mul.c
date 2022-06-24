@@ -10,9 +10,9 @@
 int main(int argc, char *argv[])
 
 {
-	int i mul;
+	int i,  mul;
 
-	if (agrc < 1)
+	if (agrc < 1 || argc > 2)
 
 	{
 
