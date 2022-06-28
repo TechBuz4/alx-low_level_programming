@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 		k++;
 	}
 	new = malloc(sizeof(char) * k);
-	if (new == null)
+	if (new == NULL)
 	{
 		return (NULL);
 	}
@@ -37,7 +37,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		new[j] = s1[i];
 	}
-	for (i = 0; s2[i]'; i++)
+	for (i = 0; s2[i]; i++)
 	{
 		new[j] = s2[i];
 	}
