@@ -29,11 +29,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		l++;
 	}
 	i = malloc((l + 1) * sizeof(char));
-	l = 0;
 	if (i == NULL)
 	{
 		return (NULL);
 	}
+	l = 0;
 	for (j = 0; s1[j]; j++)
 	{
 		i[l++] = s[j];
